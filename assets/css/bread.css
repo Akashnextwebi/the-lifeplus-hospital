@@ -1,0 +1,103 @@
+﻿
+.page-title {
+    display: block;
+    position: relative;
+    padding: 30px;
+    background: #eef5f1;
+    margin: 30px 70px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.page-title h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    word-break: break-word;
+    margin-bottom: 0;
+}
+
+.page-breadcrumb {
+    display: inline-block;
+    background: #1f143e;
+    padding: 10px 30px;
+    border-radius: 100px;
+}
+
+.breadcrumb {
+    background: none;
+    display: inline-block;
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.breadcrumb-item {
+    display: inline-block;
+}
+
+    .breadcrumb-item a {
+        color: #fff;
+    }
+
+        .breadcrumb-item.active, .breadcrumb-item a:hover {
+            color: #fff;
+        }
+
+    .breadcrumb-item + .breadcrumb-item:before {
+        color: #fff;
+    }
+
+    .breadcrumb-item + .breadcrumb-item::before {
+        float: left;
+        padding-right: .5rem;
+        color: #fff;
+        content: "/";
+    }
+
+section {
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.theme-title {
+    margin-bottom: 50px;
+}
+
+    .theme-title h2 {
+        margin-bottom: 15px;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.contact-media li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact-media i {
+    line-height: 1;
+    font-size: 40px;
+    color: #271951;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.contact-media p, .contact-media a {
+    color: #271951;
+    font-size: 18px;
+}
+
+.box-shadow, .scroll-top, .dropdown-menu, #header-wrap.fixed-header, .navbar-nav ul, .themeht-btn, a.themeht-btn, .marquee-icon-box, .featured-item.style-1, .featured-item.style-3, .post-card.style-2 .post-date, .themeht-blogs .post-card.style-2, .portfolio-single-page ul.portfolio-meta-info, .team-member .team-description, .swiper-button-next, .swiper-button-prev, .service-widget.widget, .comment-author img, .themeht-sidebar, .product-item, .tab .nav-tabs .nav-link, .comment-reply-link, .testimonial.style-2, .service-widget, .service-item.style-2 .service-desc {
+    -webkit-box-shadow: 0 5px 22px 0px rgba(15, 53, 103, .05);
+    -moz-box-shadow: 0 5px 22px 0px rgba(15, 53, 103, .05);
+    box-shadow: 0 5px 22px 0px rgba(15, 53, 103, .05);
+}
+
+
